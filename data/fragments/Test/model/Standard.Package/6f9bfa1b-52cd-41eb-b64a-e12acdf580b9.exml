@@ -22,6 +22,11 @@
         <COMPID name="ContratDeTravail" mc="Standard.Class" uid="5d5ca1b5-412f-4027-99af-9055a574ffba"/>
         <COMPID name="Actionnariat" mc="Standard.Class" uid="c1a1b2e1-f22f-4740-b237-3f03108c0503"/>
         <COMPID name="SousTraitance" mc="Standard.Class" uid="076de09c-71d0-4278-95ba-82cfab3ea953"/>
+        <COMPID name="Organisation" mc="Standard.Class" uid="b8a5974e-8e6d-4059-aa0a-f80d961b776b"/>
+        <COMPID name="Responsabilite" mc="Standard.Class" uid="098ad141-b7da-4e41-8394-95e2fc7dd8f1"/>
+        <COMPID name="Perimetre" mc="Standard.Class" uid="d5602d37-174b-4cf0-93b1-21657c4e0abf"/>
+        <COMPID name="Annuaire" mc="Standard.Class" uid="0efe9a50-2e1e-456a-bf69-1519e51213db"/>
+        <COMPID name="PerimetreDigital" mc="Standard.Class" uid="d1375c4e-cccf-48f4-b76b-ae6725d06f87"/>
         <OBJECT>
           <ID name="Sexe" mc="Standard.Enumeration" uid="66540c1b-c6a8-4117-af9b-8396e3ed964f"/>
           <ATTRIBUTES>
@@ -65,10 +70,6 @@
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
-        <COMPID name="Organisation" mc="Standard.Class" uid="b8a5974e-8e6d-4059-aa0a-f80d961b776b"/>
-        <COMPID name="Responsabilite" mc="Standard.Class" uid="098ad141-b7da-4e41-8394-95e2fc7dd8f1"/>
-        <COMPID name="Perimetre" mc="Standard.Class" uid="d5602d37-174b-4cf0-93b1-21657c4e0abf"/>
-        <COMPID name="Annuaire" mc="Standard.Class" uid="0efe9a50-2e1e-456a-bf69-1519e51213db"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
