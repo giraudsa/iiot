@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Répertoire" version="4">
+  <OBJECT>
+    <ID name="Répertoire" mc="Standard.Artifact" uid="76d7cbbf-75b0-411f-8f3a-846e62cca5de"/>
+    <PID name="base" mc="Standard.Package" uid="c7d624b5-7cab-4e56-8c3f-c22bcf7ab053"/>
+    <ATTRIBUTES>
+      <ATT name="FileName"></ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Répertoire]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="directory" mc="Infrastructure.Stereotype" uid="6432b987-256f-4121-9428-a89d364c2cef"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

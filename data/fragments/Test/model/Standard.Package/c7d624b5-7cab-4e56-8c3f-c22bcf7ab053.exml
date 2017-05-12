@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="base" version="4">
+  <OBJECT>
+    <ID name="base" mc="Standard.Package" uid="c7d624b5-7cab-4e56-8c3f-c22bcf7ab053"/>
+    <PID name="test" mc="Standard.Package" uid="e2787727-9994-466f-8320-16b2c3289ea1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[base]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="RessourceAbstraite" mc="Standard.Class" uid="bac4b1a8-abaf-44b9-9e8b-6584bcd64758"/>
+        <COMPID name="EtatRessourceAbstraite" mc="Standard.Class" uid="5b3b47cc-01e3-49c2-b480-49d68cef2100"/>
+        <COMPID name="Répertoire" mc="Standard.Artifact" uid="76d7cbbf-75b0-411f-8f3a-846e62cca5de"/>
+        <COMPID name="ObjetPersistant" mc="Standard.Class" uid="188bda0a-27a5-446c-84f7-8e39f65f6857"/>
+        <COMPID name="Infrastructure" mc="Standard.Class" uid="a326b43d-1523-45a4-9cb9-90d317f20977"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="base diagram" mc="Standard.ClassDiagram" uid="28601b6e-faee-41ad-9e5b-c90b1858e3aa"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

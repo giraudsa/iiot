@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="organisation" version="4">
+  <OBJECT>
+    <ID name="organisation" mc="Standard.Package" uid="6f9bfa1b-52cd-41eb-b64a-e12acdf580b9"/>
+    <PID name="test" mc="Standard.Package" uid="e2787727-9994-466f-8320-16b2c3289ea1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[organisation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Societe" mc="Standard.Class" uid="7c9353c0-7c83-4a7a-baa3-371ad3819218"/>
+        <COMPID name="Personne" mc="Standard.Class" uid="6570737d-9774-4d1e-97e8-adad72c99174"/>
+        <COMPID name="Contrat" mc="Standard.Class" uid="1e3198cf-27c4-4f52-ade2-4798de0c0ae7"/>
+        <COMPID name="Entite" mc="Standard.Class" uid="ca3990a7-848e-40db-a33c-ee806404953b"/>
+        <COMPID name="ContratOriente" mc="Standard.Class" uid="25ac4d11-43e4-40a8-82af-5918d80f9316"/>
+        <COMPID name="ContratDeTravail" mc="Standard.Class" uid="5d5ca1b5-412f-4027-99af-9055a574ffba"/>
+        <COMPID name="Actionnariat" mc="Standard.Class" uid="c1a1b2e1-f22f-4740-b237-3f03108c0503"/>
+        <COMPID name="SousTraitance" mc="Standard.Class" uid="076de09c-71d0-4278-95ba-82cfab3ea953"/>
+        <OBJECT>
+          <ID name="Sexe" mc="Standard.Enumeration" uid="66540c1b-c6a8-4117-af9b-8396e3ed964f"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[Sexe]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="MASCULIN" mc="Standard.EnumerationLiteral" uid="368a1c3f-a4b2-4696-95bd-b9a763afd31c"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[MASCULIN]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="FEMININ" mc="Standard.EnumerationLiteral" uid="9d737b8b-c631-4d9a-8551-ef741aa5cd7f"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[FEMININ]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AUTRE" mc="Standard.EnumerationLiteral" uid="0c65cc8f-c1ab-459d-a79b-c7c5348d971f"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[AUTRE]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="Organisation" mc="Standard.Class" uid="b8a5974e-8e6d-4059-aa0a-f80d961b776b"/>
+        <COMPID name="Responsabilite" mc="Standard.Class" uid="098ad141-b7da-4e41-8394-95e2fc7dd8f1"/>
+        <COMPID name="Perimetre" mc="Standard.Class" uid="d5602d37-174b-4cf0-93b1-21657c4e0abf"/>
+        <COMPID name="Annuaire" mc="Standard.Class" uid="0efe9a50-2e1e-456a-bf69-1519e51213db"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="organisation" mc="Standard.ClassDiagram" uid="6b6ade4c-99b5-4796-bca6-a947757fa155"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
