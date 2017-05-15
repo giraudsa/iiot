@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="PerimetreDigital" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Propriete" version="4">
   <OBJECT>
-    <ID name="PerimetreDigital" mc="Standard.Class" uid="d1375c4e-cccf-48f4-b76b-ae6725d06f87"/>
+    <ID name="Propriete" mc="Standard.Class" uid="95a588e7-5b62-4946-bb71-9b08788ace54"/>
     <PID name="organisation" mc="Standard.Package" uid="6f9bfa1b-52cd-41eb-b64a-e12acdf580b9"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[PerimetreDigital]]></ATT>
+      <ATT name="Name"><![CDATA[Propriete]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="Parent">
         <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="3a7df90a-836c-41b7-a905-a0efe1c7a3c1"/>
+          <ID name="Generalization" mc="Standard.Generalization" uid="3cd8eca5-8491-4b6b-a1b7-26a190166cbf"/>
           <ATTRIBUTES>
             <ATT name="Discriminator"></ATT>
             <ATT name="Name"><![CDATA[Generalization]]></ATT>
@@ -25,7 +25,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="SuperType">
-              <ID name="Perimetre" mc="Standard.Class" uid="d5602d37-174b-4cf0-93b1-21657c4e0abf"/>
+              <ID name="ContratOriente" mc="Standard.Class" uid="25ac4d11-43e4-40a8-82af-5918d80f9316"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

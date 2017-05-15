@@ -400,7 +400,7 @@ this.personnes = value;]]></ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="SuperType">
-              <ID name="ObjetPersistant" mc="Standard.Class" uid="188bda0a-27a5-446c-84f7-8e39f65f6857"/>
+              <ID name="RessourceAbstraite" mc="Standard.Class" uid="bac4b1a8-abaf-44b9-9e8b-6584bcd64758"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

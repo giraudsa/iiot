@@ -70,6 +70,8 @@
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
+        <COMPID name="Propriete" mc="Standard.Class" uid="95a588e7-5b62-4946-bb71-9b08788ace54"/>
+        <COMPID name="Facture" mc="Standard.Class" uid="b45131cb-ce1d-4ccf-8bcd-ddce9f656c49"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
